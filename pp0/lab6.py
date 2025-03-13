@@ -1,22 +1,22 @@
 #49
 year = int(input())
-while True:
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        print(year, "is a leap year")
-    else:
-        print(year, "is not a leap year")
+
+while ((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0):
+    print("is a leap year")
     break
+
+print("is not a leap year")
 
 #50
 n = int(input())
 m = int(input())
 k = int(input())
-while True:
-    if k < n * m and (k % n == 0 or k % m == 0):
-        print("the chocolate can be divided")
-    else:
-        print("the chocolate cannot be divided")
+
+while k < n * m and (k % n == 0 or k % m == 0):
+    print("the chocolate can be divided")
     break
+
+print("the chocolate cannot be divided")
 
 #51
 num = 1
